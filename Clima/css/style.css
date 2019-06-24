@@ -1,0 +1,41 @@
+*{
+	background: #eac102;
+
+}
+
+.container{
+	background: #0688ff;
+}
+
+.menu{
+	width: 150px;
+	height: 45px;
+	border: 1px solid #00045;
+    margin-top: 0px;
+    background: #000000;
+}
+
+.menu a{
+	display: block;
+
+	
+}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 10px 12px;
+	border: 0px solid #ccc;
+	color: #FFFFFF;
+}
+
+.menu ul li a:hover{
+	background: #f56f56;
+	 color: #0000ff;
+	transition: background 1s, color 1s;
+	margin-top: 5px;
+}
